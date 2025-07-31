@@ -56,6 +56,8 @@ Or, using Docker Compose (for production or if a separate database is required):
 
 docker-compose up --build
 📝 Application Structure
+
+````
 django-todo/
 ├── project/
 │ └── settings.py
@@ -72,7 +74,7 @@ django-todo/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
-
+````
 🙌 How It Works
 Access the app at http://localhost:8000 after running the Docker container.
 
