@@ -56,18 +56,17 @@ Or, using Docker Compose (for production or if a separate database is required):
 
 docker-compose up --build
 📝 Application Structure
-text
 django-todo/
 ├── project/
-│   └── settings.py
+│ └── settings.py
 ├── todo/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── templates/
-│   │   └── todo/
-│   │       └── index.html
-│   └── admin.py
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ ├── templates/
+│ │ └── todo/
+│ │ └── index.html
+│ └── admin.py
 ├── manage.py
 ├── Dockerfile
 ├── docker-compose.yml
