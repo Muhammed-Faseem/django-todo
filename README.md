@@ -12,8 +12,6 @@ Fast setup for new developers
 
 🚀 Getting Started
 1. Clone the Repository
-bash
-git clone https://github.com/yourusername/django-todo.git
 cd django-todo
 
 2. Create a Virtual Environment (Development Only)
